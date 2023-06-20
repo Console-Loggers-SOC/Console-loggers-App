@@ -56,11 +56,11 @@
 .app-container {
 
   background-color: var(--grey);
-  max-height: 926px;
-  max-width: 428px;
+  min-height: 100vh;
+  max-width: 493px;
   margin: 0 auto;
   border-style: solid;
-  box-shadow: 0 0 1px black;
+  box-shadow: 0 0 1px black;  
 }
 
   .link {
