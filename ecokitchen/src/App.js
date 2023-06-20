@@ -29,11 +29,11 @@ function App() {
   return (
 
     <BrowserRouter>
-      <div className="app-container container">
+      <div >
         <Header />
-        <div className="content-container">
+        <div >
 
-          <div className="scrollable-content">
+          <div >
             <Routes>
               <Route path="/LandingPage" element={<LandingPage />} />
 
