@@ -22,6 +22,7 @@ import Additem from "./pages/AdditemPage";
 // authorisation component
 // import AuthProvider from "./components/authorisation/AuthProvider";
 // import AuthRoute from "./components/authorisation/AuthRoute";
+// test
 
 import RecipeDetail from "./pages/RecipeDetail";
 
@@ -29,13 +30,11 @@ import AddItemButton from "./components/AddItemButton.js";
 
 import { useState } from "react";
 
-
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   return (
     <BrowserRouter>
-
       {isAuthenticated && (
         <div>
           <Header />
@@ -46,7 +45,6 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<LandingPage />} />
-
 
           <Route
             path="/Login"
