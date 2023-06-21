@@ -11,11 +11,6 @@
   --font: "Roboto Condensed", sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
 .header-container {
   background-color: white;
@@ -56,11 +51,11 @@
 .app-container {
 
   background-color: var(--grey);
-  max-height: 926px;
-  max-width: 428px;
+  height: 100vh;
+  max-width: 493px;
   margin: 0 auto;
   border-style: solid;
-  box-shadow: 0 0 1px black;
+  box-shadow: 0 0 1px black;  
 }
 
   .link {
